@@ -26,15 +26,15 @@
     ul.classList.add("nav_ul");
     nav.appendChild(ul);
 
-    linkToNav.forEach(a => nav.innerHTML += `<a href="#">${a}</a>`);
+//     linkToNav.forEach(a => nav.innerHTML += `<a href="#">${a}</a>`);
 
-//   for (let i = 0; i <= linkToNav.length - 1; i++) {
+  for (let i = 0; i <= linkToNav.length - 1; i++) {
 
-//     let li = document.createElement("li");
-//     li.classList.add("nav_items");  
-//     li.innerHTML = linkToNav[i];
-//     ul.append(li);
-//   }
+    let li = document.createElement("li");
+    li.classList.add("nav_items");  
+    li.innerHTML = `<a href="#">${linkToNav[i}</a>`;
+    ul.append(li);
+  }
 
 // creating first section element
 
