@@ -32,9 +32,9 @@
 
     let li = document.createElement("li");
     li.classList.add("nav_items");  
-    li.innerHTML = `<a href="#">${linkToNav[i}</a>`;
+    li.innerHTML = `<a href="#">${linkToNav[i]}</a>`;
     ul.append(li);
-  }
+  };
 
 // creating first section element
 
