@@ -51,6 +51,10 @@ section{
     padding: .2rem 1rem;
 }
 
+a{
+    list-stye: none;
+}
+
 /* HERO SECTION */
 .hero_section{
     display: flex;
