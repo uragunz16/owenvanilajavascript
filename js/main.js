@@ -18,7 +18,7 @@
   header.appendChild(nav);
 
 
-  //i dont know XD
+  //loop to array and append to ul
   let linkToNav = ["About Me", "My Portfolio", "Contact Me"];  
 
   //create ul
