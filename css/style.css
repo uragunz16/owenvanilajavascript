@@ -78,6 +78,6 @@ a{
 
 .hero_image{
     border-radius: 50%;
-    filter: blur(.1rem);
+    filter: blur(0.06rem);
     width: 100%;
 }
