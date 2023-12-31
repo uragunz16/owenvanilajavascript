@@ -23,7 +23,7 @@ section{
 .main_header{
     max-width: 60rem;
     margin: 0 auto;
-    padding: 0 .9rem;
+    padding: 0.9rem .9rem;
 
     display: flex;
     align-items: center;
