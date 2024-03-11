@@ -2,80 +2,71 @@
 html{
     box-sizing: border-box;
 }
-
 *, *::before, *::after{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
-
 body{
     font-size: 62.5%;
 }
-
 section{
     max-width: 60rem;
     margin: 0 auto;
     padding: 3rem .9rem;
 }
-
 /* Main Header */
 .main_header{
     max-width: 60rem;
     margin: 0 auto;
     padding: 0.9rem .9rem;
-
     display: flex;
     align-items: center;
     justify-content: space-between  ;
 }
-
 .logo{
     cursor: pointer;
 }
-
 .nav_ul{
     list-style: none;
     display: flex;
     font-size: 1.2rem;
+    
 }
-
-.nav_ul li{
+.nav_items {
+    display: inline-block;
+    border: 1px solid #000000;
+    padding: .2rem 1rem;
     margin-right: 2rem;
     cursor: pointer;
 }
-
-.nav_items{
-    border-color: #010101;
-    border-radius: 5px;
-    padding: .2rem 1rem;
+a {    
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
 }
-
-a{
-    list-style: none;
+.nav_items:hover, a:hover {
+    background-color: #000000;
+    border-radius: 2px;
+    color: #ffffff;
 }
-
 /* HERO SECTION */
 .hero_section{
     display: flex;
     align-items: center;
     justify-content: center;
-
     gap: 5rem;
 }
-
 .hero_box{
     font-size: 1rem;
     
 }
-
 .hero_box p{
     margin-top: 1rem;
     word-spacing: 1px;
     letter-spacing: 2px;
     line-height: 1.46;
 }
-
 .hero_image{
     border-radius: 50%;
     filter: blur(0.06rem);
