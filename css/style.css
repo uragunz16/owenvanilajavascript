@@ -49,6 +49,7 @@ a {
     background-color: #000000;
     border-radius: 2px;
     color: #ffffff;
+    transition: all 0.5s;
 }
 /* HERO SECTION */
 .hero_section{
