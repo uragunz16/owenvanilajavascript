@@ -1,43 +1,37 @@
 'strict';
 
   // create header section with classtlist header
-  let header = document.createElement("header");
-  header.classList.add("main_header");
-  document.body.append(header);
+  let header = document.createElement("header");// create header
+  header.classList.add("main_header");// add class in header
+  document.body.append(header);// append header div into body tag
 
-  let img = document.createElement("img");
-  img.classList.add("logo");
-  img.setAttribute("src", "image/logo.jpg");
-  img.setAttribute("width", "150");
-  header.appendChild(img);
-
+  let img = document.createElement("img");//create element image
+  img.classList.add("logo");// add class name in element img
+  img.setAttribute("src", "image/logo.jpg");// link file folder of img
+  img.setAttribute("width", "150");// set width for img
+  header.appendChild(img);// appendChild img inside header tag
 
   //create another div with classlist navHeader
-  let nav = document.createElement("nav");
-  nav.classList.add("nav_box");
-  header.appendChild(nav);
-
+  let nav = document.createElement("nav");//create element div nav
+  nav.classList.add("nav_box");//add class name for nav
+  header.appendChild(nav);//appendChild inside header called nav
 
   //loop to array and append to ul
-  let linkToNav = ["About Me", "My Portfolio", "Contact Me"];  
-
+  let linkToNav = ["About Me", "My Portfolio", "Contact Me"]; 
   //create ul
   let ul = document.createElement("ul");
     ul.classList.add("nav_ul");
     nav.appendChild(ul);
 
 //     linkToNav.forEach(a => nav.innerHTML += `<a href="#">${a}</a>`);
-
-  for (let i = 0; i <= linkToNav.length - 1; i++) {
-
-    let li = document.createElement("li");
+  for (let i = 0; i <= linkToNav.length -1; i++) {
+    li = document.createElement("li");
     li.classList.add("nav_items");  
     li.innerHTML = `<a href="#">${linkToNav[i]}</a>`;
     ul.append(li);
   };
-
+  
 // creating first section element
-
 let section = document.createElement("section");
 section.classList.add("hero_section");
 document.body.appendChild(section);
