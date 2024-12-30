@@ -1,5 +1,11 @@
 'strict';
 
+// create container
+
+let container = document.createElement('div');
+container.classList.add("container");
+document.body.appendChild(container);
+
   // create header section with classtlist header
   let header = document.createElement("header");// create header
   header.classList.add("main_header");// add class in header
