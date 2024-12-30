@@ -2,14 +2,14 @@
 
 // create container
 
-let container = document.createElement('div');
-container.classList.add("container");
-document.body.appendChild(container);
+let container = document.createElement('div');// create div element
+container.classList.add("container");// add class name into created div 
+document.body.appendChild(container);// append container into body
 
   // create header section with classtlist header
   let header = document.createElement("header");// create header
   header.classList.add("main_header");// add class in header
-  document.body.append(header);// append header div into body tag
+  document.body.append(header);// append header div into body
 
   let img = document.createElement("img");//create element image
   img.classList.add("logo");// add class name in element img
