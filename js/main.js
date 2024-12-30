@@ -38,9 +38,9 @@ for (let i = 0; i <= linkToNav.length -1; i++) {
 };
   
 // creating first section element
-let section = document.createElement("section");
-section.classList.add("hero_section");
-document.body.appendChild(section);
+let section = document.createElement("section"); // create element section
+section.classList.add("hero_section");// adding class name of section element
+container.appendChild(section); // append section with a classname of hero_section into container
 
 let div1 = document.createElement("div");
 div1.classList.add("hero_box");
