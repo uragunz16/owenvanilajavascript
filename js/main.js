@@ -53,7 +53,7 @@ div1.append(heroSectionTitle);
 
 let heroText = document.createElement("p");
 heroText.classList.add("hero_text");
-heroText.innerHTML = "Expert in HTML5, CSS3 and Javascript, manipulating the DOM is my strongest understanding along the Hyper Text Markup Language and Cascading. And now i'm learning React-js and deep diving into the Back-End MongoDB.";
+heroText.innerHTML = "Expert in HTML5, CSS3 and learning basics of Javascript, I build my website by manipulating the DOM. My strongest understanding is in Hyper Text Markup Language and Cascading Styles Sheets.";
 div1.appendChild(heroText);
 
 let div2 = document.createElement("div");
